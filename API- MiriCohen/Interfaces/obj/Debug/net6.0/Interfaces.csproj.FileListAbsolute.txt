@@ -1,0 +1,45 @@
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+H:\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+H:\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.dll
+H:\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+H:\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.dll
+H:\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.pdb
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CopyComplete
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.dll
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+H:\API- MiriCohen\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CopyComplete
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה\API- MiriCohen\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.dll
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.dll
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\bin\Debug\net6.0\Models.pdb
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CopyComplete
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.dll
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+H:\API- לקחת לחנוכה  חזור\API- MiriCohen\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
