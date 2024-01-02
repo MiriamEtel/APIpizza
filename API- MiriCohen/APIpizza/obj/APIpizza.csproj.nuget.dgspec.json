@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj": {}
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj": {}
   },
   "projects": {
-    "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj": {
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
         "projectName": "APIpizza",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
         "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\obj\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,14 +34,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
               },
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj"
               },
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\fileService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
-        "projectName": "Interfaces",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\fileService.csproj",
+        "projectName": "fileService",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\fileService.csproj",
         "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\obj\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -114,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj"
               }
             }
           }
@@ -155,14 +155,85 @@
         }
       }
     },
-    "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj": {
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj",
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\obj\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\מרים כהן1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -222,14 +293,14 @@
         }
       }
     },
-    "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj": {
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj",
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\obj\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -252,11 +323,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\fileService.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\fileService\\fileService.csproj"
               },
-              "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj"
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
+              },
+              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj"
               }
             }
           }

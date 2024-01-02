@@ -29,17 +29,17 @@ public class PizzaController:ControllerBase
 
 //post
 [HttpPost]
-[Route("{name}/{gluten}")]
-public ActionResult<List<Pizza>> Create(string name,bool gluten){
-    return _pizza.Create(name,gluten) ;
+[Route("{name}/{gluten}/{price}")]
+public ActionResult<List<Pizza>> Create(string name,bool gluten,int price){
+    return _pizza.Create(name,gluten,price) ;
 }
 
 //put
 [HttpPut]
-[Route("{id}/{name}/{gluten}")]
-public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten)
+[Route("{id}/{name}/{gluten}/{price}")]
+public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int price)
     {
-        return _pizza.UpDate(id, name, gluten);
+        return _pizza.UpDate(id, name, gluten,price);
     }
 
 //delete

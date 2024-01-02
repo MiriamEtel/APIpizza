@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<style>
+body{
+      background-image: url('./picture/פיצה\ 9.jpg');
+      background-repeat: no-repeat;
+        background-size: cover;
+    } 
+  </style>
+<body>
+  <h1>  wellcome to my pizza store !🍕🍕🍕🍕</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>IS gluten Free</th>
+            </tr>
+        </thead>
+        <tbody id="pizzatbody">
+
+        </tbody>
+    </table>
+    <button type="button" onclick="getAllPizzas()">getAllPizzas</button>
+    <br>
+    <label for="Byid">get pizza by id:
+        <input type="number" name="Byid" id="Byid">
+    </label>
+    <button onclick="getById()">get by id</button>
+    <br>
+    <fieldset>
+        <legend>create pizza</legend>
+        <input type="text" id="createName">name:
+        <input type="number" name="createPrice" id="createPrice">price:
+        <input type="radio" name="createGluten" id="createGluten">is gluten?
+        <button onclick="create()">fot creating insert here</button>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>change pizza</legend>
+        <input type="number" name="idname" id="idname">id of pizza:
+        <input type="number" name="price" id="price">new price:
+        <input type="text" name="new_name" id="new_name">the new name:
+        <input type="radio" name="gluten" id="gluten">is gluten?
+        <button onclick="change()">for change press here</button>
+    </fieldset>
+</body>
+    <script src="./js/site.js" asp-append-version="true"></script>
+</html>

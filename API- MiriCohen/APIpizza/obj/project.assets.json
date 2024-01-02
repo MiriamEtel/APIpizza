@@ -89,6 +89,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "fileService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/fileService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/fileService.dll": {}
+        }
+      },
       "Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -122,7 +136,8 @@
         "dependencies": {
           "Interfaces": "1.0.0",
           "Models": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "fileService": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}
@@ -259,6 +274,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "fileService/1.0.0": {
+      "type": "project",
+      "path": "../fileService/fileService.csproj",
+      "msbuildProject": "../fileService/fileService.csproj"
+    },
     "Interfaces/1.0.0": {
       "type": "project",
       "path": "../Interfaces/Interfaces.csproj",
@@ -291,11 +311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
+      "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
       "projectName": "APIpizza",
-      "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
+      "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\APIpizza.csproj",
       "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-      "outputPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\APIpizza\\obj\\",
+      "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -318,14 +338,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
+            "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Interfaces\\Interfaces.csproj"
             },
-            "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj": {
-              "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Models\\Models.csproj"
+            "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+              "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj"
             },
-            "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj": {
-              "projectPath": "H:\\API- לקחת לחנוכה  חזור\\API- MiriCohen\\Services\\Services.csproj"
+            "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj": {
+              "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Services\\Services.csproj"
             }
           }
         }

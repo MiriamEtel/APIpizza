@@ -11,5 +11,6 @@
 <ItemGroup>
   <ProjectReference Include="..\Models\Models.csproj" />
   <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+  <ProjectReference Include="..\fileService\fileService.csproj" />
 </ItemGroup>
 </Project>
