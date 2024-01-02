@@ -38,19 +38,20 @@ body{
     <br>
     <fieldset>
         <legend>create pizza</legend>
-        <input type="text" id="createName">name:
-        <input type="number" name="createPrice" id="createPrice">price:
-        <input type="radio" name="createGluten" id="createGluten">is gluten?
-        <button onclick="create()">fot creating insert here</button>
+        <label for="createName">name:</label>
+        <input type="text"  name="createName"  id="createName"><br><br>
+        price:<input type="number" name="createPrice" id="createPrice"><br><br>
+        is gluten?<input type="checkbox" name="createGluten" id="createGluten"><br><br>
+        <button onclick="create()">Create</button>
     </fieldset>
     <br>
     <fieldset>
         <legend>change pizza</legend>
-        <input type="number" name="idname" id="idname">id of pizza:
-        <input type="number" name="price" id="price">new price:
-        <input type="text" name="new_name" id="new_name">the new name:
-        <input type="radio" name="gluten" id="gluten">is gluten?
-        <button onclick="change()">for change press here</button>
+        id of pizza:<input type="number" name="idname" id="idname"><br><br>
+        new price:<input type="number" name="price" id="price"><br><br>
+        the new name:<input type="text" name="new_name" id="new_name"><br><br>
+        is gluten?<input type="checkbox" name="gluten" id="gluten"><br>
+        <button onclick="change()">change</button>
     </fieldset>
 </body>
     <script src="./js/site.js" asp-append-version="true"></script>

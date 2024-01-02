@@ -40,7 +40,7 @@ function getPizzaById(data) {
 function create() {
     let name = document.getElementById("createName").value;
     let price = parseInt(document.getElementById("createPrice").value);
-    let gluten = document.getElementById("createGluten").willValidate;
+    let gluten = document.getElementById("createGluten").checked;
     var urli = `${basicUrl}/api/pizza/Create/${name}/${gluten}/${price}`;
 
     var raw = "";

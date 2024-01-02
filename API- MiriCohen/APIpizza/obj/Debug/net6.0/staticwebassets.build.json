@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VIh5ftwlcT2fXJbQQtNkHNyqw74jbgJ943G8w0lRnQQ=",
+  "Hash": "z6f5Eu1ob+7bD5DVcAhB5CvfEdRsplIb/W+DlYKuE0A=",
   "Source": "APIpizza",
   "BasePath": "_content/APIpizza",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "APIpizza\\wwwroot",
       "Source": "APIpizza",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\css\\site.css",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\css\\site.css",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\index.html",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\index.html",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\js\\site.js",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\js\\site.js",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 13.jpg",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 13.jpg",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "picture/פיצה 13.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\picture\\פיצה 13.jpg"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 23.jpg",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 23.jpg",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "picture/פיצה 23.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\picture\\פיצה 23.jpg"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 9.jpg",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 9.jpg",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "picture/פיצה 9.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\picture\\פיצה 9.jpg"
     },
     {
-      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\Thumbs.db",
+      "Identity": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\Thumbs.db",
       "SourceId": "APIpizza",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "ContentRoot": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\APIpizza\\wwwroot\\",
       "BasePath": "_content/APIpizza",
       "RelativePath": "picture/Thumbs.db",
       "AssetKind": "All",

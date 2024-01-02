@@ -20,7 +20,7 @@ namespace fileService{
         }
         public List<T> Read(string path)
         {
-            string[]str_data;
+            string[] str_data;
             List<T> pi=new List<T>();
             if(File.Exists(path))
             {

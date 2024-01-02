@@ -3,6 +3,9 @@ using Services;
 using Models;
 using fileService;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
+using APIpizza.Extensions;
+using APIpizza.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,6 +19,7 @@ builder.Services.AddSingleton<IPizza, PizzaService>();
 builder.Services.AddTransient<IOrder, OrderService>();
 builder.Services.AddScoped<IWorker, WorkerService>();
 builder.Services.AddSingleton<IfileService<Pizza>,ReadWrite<Pizza> >();
+builder.Services.AddSingleton<IfileService<string>,ReadWrite<string> >();
 
 var app = builder.Build();
 
@@ -33,5 +37,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseActionLog();
 
 app.Run();

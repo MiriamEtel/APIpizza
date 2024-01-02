@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {}
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj": {}
   },
   "projects": {
-    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj": {
+    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj",
+        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\Models.csproj",
+        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן -הגשה 4\\API- MiriCohen\\Models\\obj\\",
+        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

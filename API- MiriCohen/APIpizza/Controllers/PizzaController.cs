@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Models;
 using Services;
 using Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace APIpizza.Controllers
 {
@@ -30,7 +31,7 @@ public class PizzaController:ControllerBase
 //post
 [HttpPost]
 [Route("{name}/{gluten}/{price}")]
-public ActionResult<List<Pizza>> Create(string name,bool gluten,int price){
+public ActionResult<List<Pizza>> Create([StringLength(23)]string name,bool gluten,[Range(15,150)]int price){
     return _pizza.Create(name,gluten,price) ;
 }
 

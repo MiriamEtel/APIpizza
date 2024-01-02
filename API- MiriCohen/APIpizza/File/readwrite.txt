@@ -4,3 +4,4 @@
 {"Name":"XL pizza","Gluten":true,"Id":6,"Price":85}
 {"Name":"Mini pizza","Gluten":true,"Id":2,"Price":15}
 {"Name":"Mini pizza gluten free","Gluten":false,"Id":3,"Price":15}
+{"Name":"XXL pizza","Gluten":true,"Id":6,"Price":160}
