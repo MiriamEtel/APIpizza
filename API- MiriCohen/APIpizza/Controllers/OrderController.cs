@@ -16,8 +16,8 @@ public class OrderController : ControllerBase
 [HttpPost]
 [Route("{order}")]
 public string sendOrder(Order order){
-    System.Console.WriteLine(_order.Stringi());
-    return _order.sendOrder(order);
+   Console.WriteLine(_order.Stringi());
+        return _order.SendOrder(order);
 }
 
 }

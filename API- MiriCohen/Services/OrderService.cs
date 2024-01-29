@@ -4,17 +4,18 @@ using Models;
 using System.Threading.Tasks;
 using System.Text;
 using System.Text.Json;
+using fileService;
 
 namespace Services
 {
-    public class OrderService : IOrder{
+    public class OrderService : Interfaces.IOrder{
       public DateTime Date {get;set;}
 
        public OrderService()
        {
         Date=DateTime.Now;
        }
-      public string sendOrder (Order order)
+      public string SendOrder(Order order)
       {
         DateTime Date=new DateTime();
         var jsonOrder=JsonSerializer.Serialize<Order>(order);

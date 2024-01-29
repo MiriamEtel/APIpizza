@@ -17,6 +17,7 @@ public class PizzaService:Interfaces.IPizza
         public PizzaService(IfileService<Pizza> rwr)
         {
             this._rwr=rwr;
+            _rwr.FileName="readwrite.json";
             Date=DateTime.Now;
             Pizzas=new List<Pizza>
           {
@@ -24,7 +25,7 @@ public class PizzaService:Interfaces.IPizza
            new Pizza(){Id = 2, Gluten = false,Name="olives and mashrooms",Price=45},
            new Pizza(){Id = 3, Gluten = true,Name="Mutzarela",Price=50}
           };
-          List<Pizza> p=_rwr.Read(Path.Combine(Environment.CurrentDirectory,"File" ,"readwrite.txt"));
+          List<Pizza> p=_rwr.Read<Pizza>();
           nextId=p.Count()+1;
         }
 
@@ -34,57 +35,49 @@ public string Stringi(){
 
   public Pizza? GetById(int id)
   {
-    return _rwr.Read(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt")).FirstOrDefault(p => p.Id == id);
+    return Get().FirstOrDefault(p => p.Id == id);
   }
   public List<Pizza> Get() 
   {
-        return _rwr.Read(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
+        return _rwr.Read<Pizza>();
   }
  
 public ActionResult<List<Pizza>> Create(string name, bool gluten,int price)
         {
-            Pizza p = new Pizza() { Id = nextId++, Gluten = gluten, Name = name ,Price=price};
-            _rwr.Write(p,Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
+            Pizza p = new Pizza(nextId++, name ,gluten,price);
+            _rwr.Write<Pizza>(p);
             Pizzas.Add(p);
             return Pizzas;
         }
 
        public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int price)
         {
-            List<Pizza> Piz= _rwr.Read(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-            foreach (var p in Piz)
+            List<Pizza> piz= Get();
+            foreach (var p in piz)
             {
                 if (p.Id == id)
                 {
                     p.Name = name;
                     p.Gluten = gluten;
                     p.Price = price;
-                    _rwr.DeleteAll(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-                    foreach(var pi in Piz){
-                    _rwr.Write(pi,Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-  
-                    }
+                    _rwr.Update<Pizza>(piz);
                 }
             }
-            return Piz;
+            return piz;
         }
 
-        public ActionResult<List<Pizza>> Delete(int id)
+        public void Delete(int id)
         {
-          List<Pizza> Piz= _rwr.Read(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-          foreach (var p in Piz)
+          List<Pizza> piz= Get();
+          foreach (var p in piz)
             {
                 if (p.Id == id)
                 { 
-                    Piz.Remove(p);
-                    _rwr.DeleteAll(Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-                    foreach(var pi in Piz){
-                    _rwr.Write(p,Path.Combine(Environment.CurrentDirectory,"File","readwrite.txt"));
-  
-                    }
+                    piz.Remove(p);
+                    _rwr.Update(piz);
+                   
                 }
             }
-            return Piz;
         }
 
         

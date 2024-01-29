@@ -5,9 +5,13 @@ using Models;
 namespace fileService{
     public interface IfileService<T>
     {
-        void Write(T data,string path);
-        List <T> Read(string path);
-        void DeleteAll(string path);
+        string FileName {get;set;}
+        void WriteMessage(string message);
+        void Write<T>(T data);
+        void WriteLog(string m);
+        List<T> Read<T>();
+        void DeleteAll<T>();
+        void Update<T>(List<T> list);
 
     }
 }

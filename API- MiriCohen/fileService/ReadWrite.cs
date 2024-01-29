@@ -5,39 +5,57 @@ using Microsoft.AspNetCore.Mvc;
 namespace fileService{
     public class ReadWrite<T> : IfileService<T>
     {
-        public string filePath {get;set;}
+        public string FilePath {get; set;}
+        public string FileName {get; set;}
+
         public ReadWrite()
         {
-        this.filePath = Path.Combine(Environment.CurrentDirectory, "File", "readwrite.txt");
+        this.FilePath = Path.Combine(Environment.CurrentDirectory, "File");
         }
-        public void Write(T data,string path)
-        {
-            string str_data=JsonSerializer.Serialize(data);
-            if(File.Exists(path))
+
+        public void WriteMessage(string message){
+            if(File.Exists(Path.Combine(FilePath,FileName)))
             {
-                File.AppendAllText(path,$"{str_data}\n");
+              File.WriteAllText(Path.Combine(FilePath, FileName), $"{message}\n");
             }
         }
-        public List<T> Read(string path)
-        {
-            string[] str_data;
-            List<T> pi=new List<T>();
-            if(File.Exists(path))
+
+        public void WriteLog(string message){
+            if(File.Exists(Path.Combine(FilePath,FileName)))
             {
-                str_data=File.ReadAllLines(path);
-                for(int i=1;i<str_data.Length;i++)
-                {
-                    T data=JsonSerializer.Deserialize<T>(str_data[i]);
-                    pi.Add(data);
-                }
-            }
-            return pi;
-        }
-        public void DeleteAll(string path){
-            if(File.Exists(path)){
-                File.Delete(path);
-                File.AppendAllText(path,"\n");
+               File.AppendAllText(Path.Combine(FilePath, FileName), $"{message}\n");
+
             }
         }
+        public void Write<T>(T data)
+        {
+           string json=File.ReadAllText(Path.Combine(FilePath,FileName));
+           var TList =JsonSerializer.Deserialize<List<T>>(json);
+           TList.Add(data);
+           json=JsonSerializer.Serialize(TList);
+           WriteMessage(json);
+        }
+        public List<T> Read<T>()
+        {  
+            string json=File.ReadAllText(Path.Combine(FilePath,FileName));
+            var TList =JsonSerializer.Deserialize<List<T>>(json);
+            if(TList!=null)
+                return TList;
+            return default(List<T>);
+           
+            }
+  
+        public void DeleteAll<T>(){
+            if(File.Exists(Path.Combine(FilePath,FileName))){
+                File.Delete(Path.Combine(FilePath,FileName));
+                File.AppendAllText(Path.Combine(FilePath, FileName),"\n");
+            }
+        }
+
+         public void Update<T>(List<T> list)
+          {
+            string json=JsonSerializer.Serialize(list);
+            WriteMessage(json);
+        } 
     }
 }

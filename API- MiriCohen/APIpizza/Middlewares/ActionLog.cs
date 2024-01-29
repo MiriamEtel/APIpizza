@@ -8,33 +8,38 @@ namespace APIpizza.Middlewares
     public class ActionLogMiddleWare
     {
         private readonly RequestDelegate _next;
-        readonly IfileService <string> _rwr;
+        private IfileService<string> _rwr;
 
-        public ActionLogMiddleWare(RequestDelegate next,IfileService <string> rwr)
+        public ActionLogMiddleWare(RequestDelegate next )
     {
         _next=next;
-        _rwr=rwr;
     }
 
-    public async Task InvokeAsync (HttpContext context)
+    public async Task InvokeAsync(HttpContext context, IfileService<string> rwr)
     {
-        DateTime dr=DateTime.Now;
-        string mr=context.Request.Method;
-        string pr=context.Request.Path;
-        string prtc=context.Request.Protocol;
-        if (pr!="/index.html"&& pr!="/favcion.ico"){
-            string xr="the request: date time:"+dr+"method:"+mr+"path:"+pr+"protocol"+prtc;
-        _rwr.Write(xr,Path.Combine(Environment.CurrentDirectory,"File","log.txt"));
-        }
-
-        //calling the next delegate/Middleware in the pipeline
-     await  _next(context);
-     DateTime ds=DateTime.Now;
-     int ss =context.Response.StatusCode;
-     if (pr!="/index.html"&& pr!="/favcion.ico"){
-        string xs="the response: date time:"+ds+"Status code:"+ss;
-        _rwr.Write(xs,Path.Combine(Environment.CurrentDirectory,"File","log.txt"));
-     }
+ try{
+      _rwr=rwr;
+      _rwr.FileName="log.txt";
+      string mr = context.Request.Method;
+      string pr = context.Request.Path;
+      string ptc= context.Request.Protocol;
+      if(pr!="/index.html" && pr!="/favicon.ico"){
+         string xr="the request:  date time: "+DateTime.Now +" method: "+mr +" path: "+pr+" protocol: "+ptc;
+        _rwr.WriteLog(xr);
     }
+    
+    await _next(context);
+    _rwr.FileName="log.txt";
+    int ss = context.Response.StatusCode;
+     if(pr!="/index.html" && pr!="/favicon.ico"){
+        string xs="the response:  date time: "+DateTime.Now +" status code: " +ss;
+        _rwr.WriteLog(xs);
     }
+  }
+   catch(Exception ex)
+   {
+    throw ex;
+   }
+    }
+}
 }

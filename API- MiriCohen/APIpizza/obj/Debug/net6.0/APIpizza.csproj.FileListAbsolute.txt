@@ -212,3 +212,84 @@ H:\API- לקחת לחנוכה  חזור ושוב\מירי כהן-הגשה 5\API-
 H:\API- לקחת לחנוכה  חזור ושוב\מירי כהן-הגשה 5\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.CopyComplete
 H:\API- לקחת לחנוכה  חזור ושוב\מירי כהן-הגשה 5\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.genruntimeconfig.cache
 H:\API- לקחת לחנוכה  חזור ושוב\מירי כהן-הגשה 5\API- MiriCohen\APIpizza\obj\Debug\net6.0\ref\APIpizza.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\appsettings.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.staticwebassets.runtime.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.exe
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.deps.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.runtimeconfig.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\fileService.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Interfaces.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Models.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Services.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Models.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Services.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\fileService.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.AssemblyInfo.cs
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\scopedcss\bundle\APIpizza.styles.css
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.CopyComplete
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\refint\APIpizza.dll
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.pdb
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.genruntimeconfig.cache
+C:\Users\The user\Desktop\API- לקחת לחנוכה  חזור\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\ref\APIpizza.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\refint\APIpizza.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.AssemblyInfo.cs
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\appsettings.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\File\readwrite.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\File\workers.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.staticwebassets.runtime.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.exe
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.deps.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.runtimeconfig.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\APIpizza.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\fileService.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Interfaces.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Models.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Services.dll
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Models.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Services.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\bin\Debug\net6.0\fileService.pdb
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\scopedcss\bundle\APIpizza.styles.css
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.csproj.CopyComplete
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\APIpizza.genruntimeconfig.cache
+C:\Users\The user\Desktop\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\APIpizza-main\API- MiriCohen\APIpizza\obj\Debug\net6.0\ref\APIpizza.dll

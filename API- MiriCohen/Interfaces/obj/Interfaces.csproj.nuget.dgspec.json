@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {}
+    "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\מרים כהן1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -34,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj": {
-                "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj"
+              "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\Models.csproj"
               }
             }
           }
@@ -50,6 +48,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -61,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,28 +76,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj": {
+    "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\מרים כהן1\\.nuget\\packages\\",
-        "outputPath": "H:\\API- לקחת לחנוכה  חזור ושוב\\מירי כהן-הגשה 5\\API- MiriCohen\\Models\\obj\\",
+        "projectPath": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\מירי כהן-הגשה 6!!!!!!!!!!!!!!!!!\\APIpizza-main\\API- MiriCohen\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\מרים כהן1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -128,8 +131,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
         }
       }
     }

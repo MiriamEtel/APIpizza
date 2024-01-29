@@ -11,6 +11,6 @@ namespace Interfaces
 
        ActionResult<List<Pizza>> Create(string name,bool gluten,int price);
        ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int price);
-       ActionResult<List<Pizza>> Delete(int id);
+       void Delete(int id);
     }
 }

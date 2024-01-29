@@ -16,23 +16,62 @@ body{
   </style>
 <body>
   <h1>  wellcome to my pizza store !🍕🍕🍕🍕</h1>
+  <div id="container">
+    <div id="detials">
+        pizzas:
     <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Price</th>
-                <th>IS gluten Free</th>
-            </tr>
-        </thead>
-        <tbody id="pizzatbody">
-
+        <tbody id="pizzaarea">
         </tbody>
+    </table>
+    <br>
+    workers:
+    <table>
+        <tbody id="workerarea">
+        </tbody>
+    </table>
+    </div>
+    <div id="services">
+        <fieldset>
+            <legend>login🔒</legend>
+            name:<input type="text" id="logname">
+            password:<input type="text" name="logpassword" id="logpassword">
+            <button onclick="login()">login</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>workers👩‍💼</legend>
+            <button type="button" onclick="getAllWorkers()">getAllWorkers</button>
+        <br>
+        <label for="Byid">get worker by id
+            <input type="number" name="wByid" id="wByid">
+        </label>
+        <button onclick="getWorkerById()">get by id</button>
+        <br>
+        <fieldset>
+        <legend>create worker</legend>
+        name:<input type="text" id="createWorkerName">
+        password: <input type="text" name="createWorkerpass" id="createWorkerpass">
+        role: <input type="text" name="createWorkerpRole" id="createWorkerpRole">
+        <button onclick="createWorker()">to create press here</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>change worker</legend>
+            id of worker:<input type="number" name="idWorker" id="idWorker">
+            new password:<input type="text" name="newWorkerPassword" id="newWorkerPassword">
+            new name:<input type="text" name="newWorkerName" id="newWorkerName">
+            new role:<input type="text" name="newWorkerRole" id="newWorkerRole">
+            <button onclick="changeWorker()">for change press here</button>
+        </fieldset> 
+        </fieldset>   
+        </fieldset>
+        <legend>pizzas🍕</legend>
     </table>
     <button type="button" onclick="getAllPizzas()">getAllPizzas</button>
     <br>
     <label for="Byid">get pizza by id:
         <input type="number" name="Byid" id="Byid">
+
     </label>
     <button onclick="getById()">get by id</button>
     <br>

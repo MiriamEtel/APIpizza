@@ -1,8 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
 using Models;
-using Services;
 using Interfaces;
+using Services; 
 using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace APIpizza.Controllers
 {
@@ -10,8 +16,8 @@ namespace APIpizza.Controllers
 [Route("api/[controller]/[action]")]
 
 public class PizzaController:ControllerBase
-{ IPizza _pizza;
-
+{
+    readonly IPizza _pizza;
  public PizzaController(IPizza P){
     _pizza=P;
  }
@@ -38,6 +44,7 @@ public ActionResult<List<Pizza>> Create([StringLength(23)]string name,bool glute
 //put
 [HttpPut]
 [Route("{id}/{name}/{gluten}/{price}")]
+[Authorize(Policy = "SuperWorker")]
 public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int price)
     {
         return _pizza.UpDate(id, name, gluten,price);
@@ -45,9 +52,10 @@ public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int pri
 
 //delete
  [HttpDelete("{id}")]
-    public ActionResult<List<Pizza>> Delete(int id)
+ [Authorize(Policy = "SuperWorker")]
+    public void Delete(int id)
     {
-        return _pizza.Delete(id);
+         _pizza.Delete(id);
     }
 
 }
