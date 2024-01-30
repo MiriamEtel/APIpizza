@@ -15,21 +15,21 @@ body{
     } 
   </style>
 <body>
-  <h1>  wellcome to my pizza store !🍕🍕🍕🍕</h1>
-  <div id="container">
-    <div id="detials">
-        pizzas:
-    <table>
-        <tbody id="pizzaarea">
+  <h1>🍕🍕🍕🍕 wellcome to my pizza store ! 🍕🍕🍕🍕</h1>
+  <div id="contentAll">
+     <div id="detials">
+        🍕pizzas:
+      <table>
+         <tbody id="pizzatbody">
+         </tbody>
+       </table>
+      <br>
+      👨‍💼workers:
+      <table>
+        <tbody id="workertbody">
         </tbody>
-    </table>
-    <br>
-    workers:
-    <table>
-        <tbody id="workerarea">
-        </tbody>
-    </table>
-    </div>
+       </table>
+      
     <div id="services">
         <fieldset>
             <legend>login🔒</legend>
@@ -39,20 +39,20 @@ body{
         </fieldset>
         <br>
         <fieldset>
-            <legend>workers👩‍💼</legend>
-            <button type="button" onclick="getAllWorkers()">getAllWorkers</button>
+             <legend>workers👩‍💼</legend>
+        <button type="button" onclick="getAllWorkers()">getAllWorkers</button>
         <br>
-        <label for="Byid">get worker by id
+        <label for="Byid">get worker by id :
             <input type="number" name="wByid" id="wByid">
         </label>
-        <button onclick="getWorkerById()">get by id</button>
+        <button type="submit" onclick="getWorkerById()">get by id</button>
         <br>
         <fieldset>
-        <legend>create worker</legend>
-        name:<input type="text" id="createWorkerName">
-        password: <input type="text" name="createWorkerpass" id="createWorkerpass">
-        role: <input type="text" name="createWorkerpRole" id="createWorkerpRole">
-        <button onclick="createWorker()">to create press here</button>
+         <legend>create worker</legend>
+         name:<input type="text" id="createWorkerName">
+         password: <input type="text" name="createWorkerpass" id="createWorkerpass">
+         role: <input type="text" name="createWorkerpRole" id="createWorkerpRole">
+         <button type="submit" onclick="createWorker()">press to create</button>
         </fieldset>
         <br>
         <fieldset>
@@ -61,37 +61,41 @@ body{
             new password:<input type="text" name="newWorkerPassword" id="newWorkerPassword">
             new name:<input type="text" name="newWorkerName" id="newWorkerName">
             new role:<input type="text" name="newWorkerRole" id="newWorkerRole">
-            <button onclick="changeWorker()">for change press here</button>
+            <button type="submit" onclick="changeWorker()">press to change</button>
         </fieldset> 
         </fieldset>   
-        </fieldset>
+        <fieldset>
         <legend>pizzas🍕</legend>
-    </table>
-    <button type="button" onclick="getAllPizzas()">getAllPizzas</button>
-    <br>
-    <label for="Byid">get pizza by id:
+     <button type="button" onclick="getAllPizzas()">getAllPizzas</button>
+     <br>
+     <label for="Byid">get pizza by id:
         <input type="number" name="Byid" id="Byid">
 
-    </label>
-    <button onclick="getById()">get by id</button>
-    <br>
-    <fieldset>
+     </label>
+     <button onclick="getById()">get by id</button>
+     <br>
+     <fieldset>
         <legend>create pizza</legend>
         <label for="createName">name:</label>
         <input type="text"  name="createName"  id="createName"><br><br>
         price:<input type="number" name="createPrice" id="createPrice"><br><br>
         is gluten?<input type="checkbox" name="createGluten" id="createGluten"><br><br>
-        <button onclick="create()">Create</button>
-    </fieldset>
-    <br>
-    <fieldset>
-        <legend>change pizza</legend>
+        <button type="submit" onclick="create()">create</button>
+     </fieldset>
+     <br>
+     <fieldset>
+        <legend>change pizza 🍕🍕</legend>
         id of pizza:<input type="number" name="idname" id="idname"><br><br>
         new price:<input type="number" name="price" id="price"><br><br>
         the new name:<input type="text" name="new_name" id="new_name"><br><br>
         is gluten?<input type="checkbox" name="gluten" id="gluten"><br>
-        <button onclick="change()">change</button>
-    </fieldset>
+        <button type="submit" onclick="change()">press to change</button>
+      </fieldset>
+      </fieldset>
+    </div>
+ </div>
+
+    <a href="./order.html">🍕🍕🍕🍕 To order a pizza click me 🍕🍕🍕🍕</a>
 </body>
     <script src="./js/site.js" asp-append-version="true"></script>
 </html>

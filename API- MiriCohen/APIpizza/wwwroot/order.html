@@ -1,0 +1,42 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🍕Pizza order:</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<style>
+    body{
+          background-image: url('./picture/פיצה\ 9.jpg');
+          background-repeat: no-repeat;
+            background-size: cover;
+        } 
+      </style>
+
+<body>
+    <h2>🍕Choose your favorite pizza, and indulge yourself - Bon appetit for everyone! 😃</h2>
+    <fieldset>
+        <legend>customer details</legend>
+        id:<input type="text" name="cusid" id="cusid">
+        name:<input type="text" name="cusname" id="cusname">
+    </fieldset>
+    <fieldset>
+        <legend>order details</legend>
+        <label for="iditem">order pizza by id:
+            <input type="number" name="iditem" id="iditem">
+            <input type="number" name="qitem" id="qitem">
+        </label>
+        <button onclick="additem()">add pizza</button>
+    </fieldset>
+    <fieldset>
+        <legend>credit card details</legend>
+        credit card num:<input type="text" name="ccnum" id="ccnum">
+        expires:<input type="text" name="validity" id="validity">
+        cvv:<input type="text" name="cvv" id="cvv">
+        <button type="submit" onclick="order()">pay</button>
+        <h1></h1>
+    </fieldset>
+</body>
+<script src="./js/site.js" asp-append-version="true"></script>
+
+</html>

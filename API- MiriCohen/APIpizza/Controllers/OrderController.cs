@@ -15,9 +15,9 @@ public class OrderController : ControllerBase
 
 [HttpPost]
 [Route("{order}")]
-public string sendOrder(Order order){
+public async Task<string> sendOrder(Order order){
    Console.WriteLine(_order.Stringi());
-        return _order.SendOrder(order);
+        return await _order.SendOrder(order);
 }
 
 }

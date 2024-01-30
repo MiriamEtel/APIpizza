@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s7CaiwaQcFoMNiQzwu8sOPu8MYqVSGdhYDzdx7kx0Xo=",
+  "Hash": "JPp1hhFwR6bfPX201hMAoDgmOlKqjZL5mKa51K8JEE4=",
   "Source": "APIpizza",
   "BasePath": "_content/APIpizza",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\order.html",
+      "SourceId": "APIpizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\",
+      "BasePath": "_content/APIpizza",
+      "RelativePath": "order.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\order.html"
     },
     {
       "Identity": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 13.jpg",

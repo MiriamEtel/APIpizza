@@ -12,3 +12,57 @@ the request:  date time: 30/01/2024 12:35:24 method: GET path: /api/pizza/get pr
 the response:  date time: 30/01/2024 12:35:24 status code: 200
 the request:  date time: 30/01/2024 12:35:24 method: GET path: /api/pizza/get protocol: HTTP/2
 the response:  date time: 30/01/2024 12:35:24 status code: 200
+the request:  date time: 30/01/2024 15:31:39 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 15:31:39 status code: 200
+the request:  date time: 30/01/2024 15:32:52 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:32:52 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 15:32:52 status code: 404
+the request:  date time: 30/01/2024 15:32:55 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:32:55 method: POST path: /error-development protocol: HTTP/2
+the request:  date time: 30/01/2024 15:32:55 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:32:55 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 15:32:55 status code: 404
+the request:  date time: 30/01/2024 15:42:38 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:42:38 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 15:42:38 status code: 404
+the request:  date time: 30/01/2024 15:42:54 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:42:54 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 15:42:54 status code: 404
+the request:  date time: 30/01/2024 15:48:04 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 15:48:04 status code: 200
+the request:  date time: 30/01/2024 15:48:29 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 15:48:29 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 15:48:29 status code: 404
+the request:  date time: 30/01/2024 16:07:14 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 16:07:14 status code: 200
+the request:  date time: 30/01/2024 16:07:46 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 16:07:46 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 16:07:46 status code: 404
+the request:  date time: 30/01/2024 16:07:50 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:07:50 status code: 404
+the request:  date time: 30/01/2024 16:11:25 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:11:25 status code: 404
+the request:  date time: 30/01/2024 16:11:37 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:11:37 status code: 404
+the request:  date time: 30/01/2024 16:11:41 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:11:41 status code: 404
+the request:  date time: 30/01/2024 16:11:43 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:11:43 status code: 404
+the request:  date time: 30/01/2024 16:12:21 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 16:12:21 status code: 200
+the request:  date time: 30/01/2024 16:18:01 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 16:18:01 status code: 200
+the request:  date time: 30/01/2024 16:31:40 method: GET path: /api/pizza/get protocol: HTTP/2
+the response:  date time: 30/01/2024 16:31:40 status code: 200
+the request:  date time: 30/01/2024 16:31:55 method: GET path: /site.css protocol: HTTP/2
+the response:  date time: 30/01/2024 16:31:55 status code: 404
+the request:  date time: 30/01/2024 16:31:57 method: POST path: /api/Order/SendOrder protocol: HTTP/2
+the response:  date time: 30/01/2024 16:31:57 status code: 404
+the request:  date time: 30/01/2024 16:31:59 method: POST path: /api/Order/SendOrder protocol: HTTP/2
+the response:  date time: 30/01/2024 16:31:59 status code: 404
+the request:  date time: 30/01/2024 16:34:46 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 16:34:46 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 16:34:46 status code: 404
+the request:  date time: 30/01/2024 16:37:21 method: POST path: /api/Login/Login/Login protocol: HTTP/2
+the request:  date time: 30/01/2024 16:37:21 method: POST path: /error-development protocol: HTTP/2
+the response:  date time: 30/01/2024 16:37:21 status code: 404

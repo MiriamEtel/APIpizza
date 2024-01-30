@@ -5,40 +5,39 @@ var headerAuthorize=new Headers();
 headerAuthorize.append("Authorization",myToken);
 headerAuthorize.append("Content-Type","application/json");
 
-var Raw=JSON.stringify({
-    "name":"Miriam Cohen",
-    "password":"111m"
-})
+var raw = JSON.stringify({
+    "name": "Miri",
+    "password": "111m"
+});
 
-function login(){
-    let name=document.getElementById("logname").value;
-    let password=document.getElementById("logpassword").value;
-     
-    raw=JSON.stringify({
-      "name":name,
-       "password":password,
-    })
-    myRaw=raw;
-    var requestOptions={
-        method:'POST',
-        Headers:headerAuthorize,
-        body:raw,
-        redirect:'follow'
-    }
-    var urli= `${basicUrl}/api/Login/Login/Login`;
-    fetch(urli,requestOptions)
-         .then(respose => respose.text())
-         .then(ref => loginlogin(ref))
-         .then(result => console.log(result))
-         .catch(error => alert('error:please login',error.message));
+function login() {
+    let name = document.getElementById("logname").value;
+    let password = document.getElementById("logpassword").value;
 
+    raw = JSON.stringify({
+        "name": name,
+        "password": password,
+    });
+    myRaw = raw;
+    var requestOptions = {
+        method: 'POST',
+        headers: headerAuthorize,
+        body: raw,
+        redirect: 'follow'
+    };
+    var urli = `${basicUrl}/api/Login/Login/Login`;
+    fetch(urli, requestOptions)
+        .then(response => response.text())
+        .then(ref => loginlogin(ref))
+        .then(result => console.log(result))
+        .catch(error => alert('error: please login...', error.message));
 }
 
-function loginlogin(tokenforyou){
-    myToken=`Bearer ${tokenforyou}`;
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
-    alert("Wellcome!!! you are connected 💝 ")
+function loginlogin(tokenforyou) {
+    myToken = `Bearer ${tokenforyou}`;
+    headerAuthorize.append("Authorization", myToken);
+    headerAuthorize.append("Content-Type", "application/json");
+    alert("Wellcom!!!  you are connected! 💝");
     return `Bearer ${tokenforyou}`;
 }
 
@@ -48,7 +47,7 @@ function getAllPizzas() {
     var urli = `${basicUrl}/api/pizza/get`;
     fetch(urli).then(response => response.json())
         .then(json => fillPizzaList(json))
-        .catch(error => console.log('Authorization failed: ' + error.message));
+        .catch(error => alert('error: '+error.message));
 }
 
 function fillPizzaList(pizzaList) {
@@ -83,6 +82,10 @@ function getPizzaById(data) {
     tbody.innerHTML += tr;
 }
 function create() {
+    var myHeaders=new Headers();
+    headerAuthorize.append("Authorization",myToken);
+    headerAuthorize.append("Content-Type","application/json");
+    var raw = myRaw;
 
     let name = document.getElementById("createName").value;
     let price = parseInt(document.getElementById("createPrice").value);
@@ -105,9 +108,8 @@ function change() {
     var myHeaders = new Headers();
     headerAuthorize.append("Authorization",myToken);
     headerAuthorize.append("Content-Type","application/json");
-    let name = document.getElementById("new_name").value;
     var raw=myRaw;
-
+    let name = document.getElementById("new_name").value;
     let price = parseInt(document.getElementById("price").value);
     let id = document.getElementById("idname").value;
     let gluten = document.getElementById("gluten").willValidate;
@@ -123,6 +125,7 @@ function change() {
     fetch(urli, requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
+        .then(getAllPizzas())
         .catch(error => alert('error: ', error.message));
 }
 
@@ -131,7 +134,7 @@ function getAllWorkers(){
 var myHeaders = new Headers();
     headerAuthorize.append("Authorization",myToken);
     headerAuthorize.append("Content-Type","application/json");
-    var raw=myRaw;
+    var raw = myRaw;
 
     var requestOptions = {
         method: 'GET',
@@ -235,4 +238,74 @@ function changeWorker(){
         .then(response => response.json())
         .then(result => console.log(result))
         .catch(error => alert('error: ' , error.message));  
+}
+
+//order:
+var pizzaorder="";
+function getpid(id){
+    var urli = `${basicUrl}/api/pizza/GetById/${id}`; 
+    fetch(urli)
+    .then(response => response.json())
+    .then(json => pizzaorder=json)
+    .catch(error => alert('error: ' , error.message)); 
+}
+
+let items=[];
+let count=0;
+
+function addItem(){
+ let iditem=document.getElementById("iditem").value; 
+ let qty=document.getElementById("qitem").value;
+ let pr;
+ getpid(iditem);
+ getpid(iditem);
+ pr=pizzaorder.price * qty;  
+
+ items[count]={
+    itemId:iditem,
+    quantity:qty,
+    price:pr
+ };
+ count++;
+}
+
+function order(){
+    var myHeaders = new Headers();
+    headerAuthorize.append("Content-Type","application/json");
+    myHeaders.append("Content-Type", "application/json");
+    let id = document.getElementById("cusid").value;
+    let ccnum = document.getElementById("ccnum").value;
+    let validity= document.getElementById("validity").value;
+    let cvv = document.getElementById("cvv").value;
+    let amount=0;  
+
+    for(let i=1;i<count;i++){
+        amount+=items[i].price;
+    }
+    var raw = //JSON.stringify
+        {
+        "customerId": id,
+        "date": "30/01/2024 22:01:29",
+        "totalAmount": amount,
+        "items": items,
+        "pay": {
+          "num": ccnum,
+          "validity": validity,
+          "cvv": cvv
+        }
+    }
+    ;
+
+    var requestOptions = {
+        method: 'POST',
+        headers:myHeaders,
+        body:raw,
+        redirect: 'follow'
+    };
+    fetch(`${basicUrl}/api/Order/SendOrder`, requestOptions)
+        .then(response => response.text())
+        .then(result =>{console.log(result);items=[]; } )
+        .catch(error => console.log('error', error));
+
+    
 }

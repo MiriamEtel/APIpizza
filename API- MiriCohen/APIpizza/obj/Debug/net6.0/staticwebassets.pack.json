@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\order.html",
+      "PackagePath": "staticwebassets\\order.html"
+    },
+    {
       "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\Thumbs.db",
       "PackagePath": "staticwebassets\\picture\\Thumbs.db"
     },

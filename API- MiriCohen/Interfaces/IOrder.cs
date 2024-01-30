@@ -4,7 +4,11 @@ namespace Interfaces
 {
     public interface IOrder : ILifeTime
     {
-         string SendOrder(Order order);
+        Task<string> SendOrder(Order order);
+        Order? Get();
+        void Receipt(Order ordr);
+        Task<string> MakePizzaAsync(List<OrderItem> items);
+        Task<string> payAsync (Order order);
 
     }
 }
