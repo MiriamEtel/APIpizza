@@ -17,7 +17,7 @@ using fileService;
 namespace APIpizza.Controllers{
 
 [ApiController]
-[Route("api/[controler]/[action]")]
+[Route("api/[controller]/[action]")]
 public class LoginController : ControllerBase
 {
    readonly Iidentity _identity;
@@ -25,10 +25,10 @@ public class LoginController : ControllerBase
     _identity=identity;
    } 
 
-   [HttpPost]
-   [Route("[action]")]
+    [HttpPost]
+    [Route("[action]")]
     public ActionResult<String> Login([FromBody]User user)
-   {
+    {
     var token =_identity.Login(user);
     if(token == null)
         throw new UnauthorizedAccessException("Unauthorized");

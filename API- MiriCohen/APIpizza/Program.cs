@@ -92,6 +92,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 app.UseActionLog();
 
 app.Run();

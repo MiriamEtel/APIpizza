@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\Thumbs.db",
+      "PackagePath": "staticwebassets\\picture\\Thumbs.db"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 13.jpg",
+      "PackagePath": "staticwebassets\\picture\\פיצה 13.jpg"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 23.jpg",
+      "PackagePath": "staticwebassets\\picture\\פיצה 23.jpg"
+    },
+    {
+      "Id": "H:\\הגשה 7 -webAPI\\APIpizza\\API- MiriCohen\\APIpizza\\wwwroot\\picture\\פיצה 9.jpg",
+      "PackagePath": "staticwebassets\\picture\\פיצה 9.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.APIpizza.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.APIpizza.props",
+      "PackagePath": "build\\APIpizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.APIpizza.props",
+      "PackagePath": "buildMultiTargeting\\APIpizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.APIpizza.props",
+      "PackagePath": "buildTransitive\\APIpizza.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
