@@ -42,12 +42,11 @@ public ActionResult<List<Pizza>> Create([StringLength(23)]string name,bool glute
 }
 
 //put
-[HttpPut]
-[Route("{id}/{name}/{gluten}/{price}")]
-[Authorize(Policy = "SuperWorker")]
-public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten,int price)
+ [HttpPut("{id}/{name}/{gluten}/{price}")]
+    [Authorize(Policy = "SuperWorker")]
+    public ActionResult<List<Pizza>> UpDate(int id, string name, bool gluten, int price)
     {
-        return _pizza.UpDate(id, name, gluten,price);
+        return _pizza.UpDate(id, name, gluten, price);
     }
 
 //delete

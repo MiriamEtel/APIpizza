@@ -14,7 +14,7 @@ public class WorkerService : Interfaces.IWorker
 
     public WorkerService(IfileService<Worker> rwr){
         _rwr=rwr;
-        _rwr.FileName="worker.json";
+        _rwr.FileName="workers.json";
         Date=DateTime.Now;
         List<Worker> w= _rwr.Read<Worker>();
         nextId=w.Count()+1;

@@ -42,20 +42,18 @@ function loginlogin(tokenforyou) {
 }
 
 //pizzas
-
 function getAllPizzas() {
     var urli = `${basicUrl}/api/pizza/get`;
     fetch(urli).then(response => response.json())
         .then(json => fillPizzaList(json))
         .catch(error => alert('error: '+error.message));
 }
-
 function fillPizzaList(pizzaList) {
     var tbody = document.getElementById('pizzatbody');
     tbody.innerHTML = `<b><tr><th>Id</th><th>Name</th><th>Price</th><th>Gluten Free</th></tr></b>`;
     pizzaList.forEach(pizza => {
         var tr = `<tr>
-         <td>${pizza.id}</td>
+        <td>${pizza.id}</td>
         <td>${pizza.name}</td>
         <td>${pizza.price}</td>
         <td>${pizza.gluten}</td>
@@ -106,140 +104,132 @@ function create() {
 
 function change() {
     var myHeaders = new Headers();
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
-    var raw=myRaw;
+    myHeaders.append("Authorization", myToken);
+    myHeaders.append("Content-Type", "application/json");
+    var raw = myRaw;
+
     let name = document.getElementById("new_name").value;
     let price = parseInt(document.getElementById("price").value);
     let id = document.getElementById("idname").value;
     let gluten = document.getElementById("gluten").willValidate;
     var urli = `${basicUrl}/api/pizza/upDate/${id}/${name}/${gluten}/${price}`;
 
-    var raw = "";
     var requestOptions = {
         method: 'PUT',
-        headers:myHeaders,
+        headers: myHeaders,
         body: raw,
         redirect: 'follow'
     };
     fetch(urli, requestOptions)
-        .then(response => response.text())
+        .then(response => response.json())
         .then(result => console.log(result))
         .then(getAllPizzas())
         .catch(error => alert('error: ', error.message));
 }
 
 //workers
-function getAllWorkers(){
-var myHeaders = new Headers();
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
+function getAllWorkers() {
+    var myHeaders = new Headers();
+    myHeaders.append("Authorization", myToken);
+    myHeaders.append("Content-Type", "application/json");
     var raw = myRaw;
 
     var requestOptions = {
         method: 'GET',
-        headers:myHeaders,
+        headers: myHeaders,
         redirect: 'follow'
     };
-
     var urli = `${basicUrl}/api/worker/get`;
-    fetch(urli,requestOptions)
-    .then(response => response.json())
+    fetch(urli, requestOptions)
+        .then(response => response.json())
         .then(json => fillWorkerList(json))
-        .catch(error => alert('error: '+error.message));
+        .catch(error => alert('error: ' + error.message));
 }
-
-function fillWorkerList(workerList){
-    var tbody =document.getElementById('workertbody');
+function fillWorkerList(workerList) {
+    var tbody = document.getElementById('workertbody');
     tbody.innerHTML = `<b><tr><th>Id</th><th>Name</th><th>Role</th></tr></b>`;
-    workerList.forEach(w =>{
+    workerList.forEach(w => {
         var tr = `<tr>
         <td>${w.id}</td>
         <td>${w.name}</td>
         <td>${w.role}</td>
         </tr>`
-        tbody.innerHTML += tr;   
-    })
+        tbody.innerHTML += tr;
+    });
 }
 
-function getWorkerById(){
+function getWorkerById() {
     var myHeaders = new Headers();
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
-    var raw=myRaw;
-    let id=document.getElementById("wByid").value;
-    var urli = `${basicUrl}/api/worker/GetById`;
+    myHeaders.append("Authorization", myToken);
+    myHeaders.append("Content-Type", "application/json");
+    var raw = myRaw;
 
+    let id = document.getElementById("wByid").value;
+    var urli = `${basicUrl}/api/worker/GetById/${id}`;
     var requestOptions = {
         method: 'GET',
-        headers:myHeaders,
+        headers: myHeaders,
         redirect: 'follow'
     };
-
-    
-    fetch(urli,requestOptions)
-    .then(response => response.json())
-        .then(json =>getwById(json))
-        .catch(error => alert('error: '+error.message));  
+    fetch(urli, requestOptions).then(response => response.json())
+        .then(json => getwById(json))
+        .catch(error => alert('error: ' + error.message));
 }
 
-function getById(data){
-    let tbody =document.getElementById('workertbody');  
+function getwById(data) {
+    let tbody = document.getElementById('workertbody');
     var tr = `<tr>
     <td>${data.id}</td>
     <td>${data.name}</td>
     <td>${data.role}</td>
     </tr>`
-    tbody.innerHTML +=tr;
-
+    tbody.innerHTML += tr;
 }
 
-function createWorker(){
+function createWorker() {
     var myHeaders = new Headers();
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
-    var raw=myRaw;
+    myHeaders.append("Authorization", myToken);
+    myHeaders.append("Content-Type", "application/json");
+    var raw = myRaw;
 
-    let name=document.getElementById("createWorkerName").value;
-    let password=document.getElementById("createWorkerPass").value;
-    let role=document.getElementById("createWorkerRole").value;  
-    var urli=`${basicUrl}/api/worker/Create/${name}/${password}/${role}`;
+    let name = document.getElementById("createWorkerName").value;
+    let password = document.getElementById("createWorkerpass").value;
+    let role = document.getElementById("createWorkerRole").value;
+    var urli = `${basicUrl}/api/worker/Create/${name}/${password}/${role}`;
 
     var requestOptions = {
         method: 'POST',
-        headers:myHeaders,
-        body:raw,
+        headers: myHeaders,
+        body: raw,
         redirect: 'follow'
     };
-    fetch(urli,requestOptions)
-        .catch(error => alert('error: ' , error.message));  
+    fetch(urli, requestOptions)
+        .catch(error => alert('error: ', error.message));
 }
 
-function changeWorker(){
+function changeWorker() {
     var myHeaders = new Headers();
-    headerAuthorize.append("Authorization",myToken);
-    headerAuthorize.append("Content-Type","application/json");
-    var raw=myRaw;  
-    
-    
-    let name=document.getElementById("newWorkerName").value;
-    let id=parseInt(document.getElementById("idWorker")).value;
-    let password=document.getElementById("newWorkerPass").value;
-    let role=document.getElementById("newWorkerRole").value;  
-    var urli=`${basicUrl}/api/worker/Create/${name}/${password}/${role}`;
+    myHeaders.append("Authorization", myToken);
+    myHeaders.append("Content-Type", "application/json");
+    var raw = myRaw;
+
+    let name = document.getElementById("newWorkerName").value;
+    let id = parseInt(document.getElementById("idWorker").value);
+    let password = document.getElementById("newWorkerPassword").value;
+    let role = document.getElementById("newWorkerRole").value;
+
+    var urli = `${basicUrl}/api/worker/upDate/${id}/${name}/${password}/${role}`;
 
     var requestOptions = {
         method: 'PUT',
-        headers:myHeaders,
-        body:raw,
+        headers: myHeaders,
+        body: raw,
         redirect: 'follow'
     };
-    fetch(urli,requestOptions)
+    fetch(urli, requestOptions)
         .then(response => response.json())
-        .then(result => console.log(result))
-        .catch(error => alert('error: ' , error.message));  
+        .catch(error => alert('error: ', error.message));
 }
-
 //order:
 var pizzaorder="";
 function getpid(id){
